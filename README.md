@@ -1,6 +1,4 @@
-# Bootcamp GoStack 8.0
-
-Bootcamp GoStack 8.0 Challenges.
+# Bootcamp GoStack 8.0 Challenges
 
 [Challenge 01 - API using Express.](./challenge-01)  
 [Challenge 02 - Backend of Meetapp.](./challenge-02)  
