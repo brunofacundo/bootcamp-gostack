@@ -8,10 +8,10 @@ Backend of a developer event aggregator app called Meetapp (an acronym for Meetu
 
 -   NodeJS.
 -   ExpressJS.
--   Sucrase + Nodemon.
--   ESLint + Prettier + EditorConfig.
--   Sequelize (With PostgresSQL).
 -   JWT.
+-   Sucrase + Nodemon.
+-   Sequelize (With PostgresSQL).
+-   ESLint + Prettier + EditorConfig.
 
 ## Functionalities
 
