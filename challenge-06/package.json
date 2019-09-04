@@ -1,7 +1,10 @@
 {
     "name": "challenge-06",
-    "version": "0.0.1",
-    "private": true,
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "repository": "https://github.com/BrunoFacundo/bootcamp-gostack",
+    "author": "Bruno Facundo <brunofr95@gmail.com>",
+    "license": "MIT",
     "scripts": {
         "start": "react-native start",
         "test": "jest",
