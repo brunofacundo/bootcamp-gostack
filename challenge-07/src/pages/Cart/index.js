@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
 import * as CartActions from '../../store/modules/cart/actions';
-import colors from '../../styles/colors';
 import { formatPrice } from '../../util/format';
 
 import {
@@ -53,16 +52,16 @@ function Cart({ products, total, removeFromCart, updateAmountRequest }) {
                                         <ProductPrice>{product.priceFormatted}</ProductPrice>
                                     </ProductDetails>
                                     <ProductDelete onPress={() => removeFromCart(product.id)}>
-                                        <Icon name='delete-forever' size={24} color={colors.primary} />
+                                        <Icon name='delete-forever' size={24} color='#7159c1' />
                                     </ProductDelete>
                                 </ProductInfo>
                                 <ProductControls>
                                     <ProductControlButton onPress={() => decrement(product)}>
-                                        <Icon name='remove-circle-outline' size={20} color={colors.primary} />
+                                        <Icon name='remove-circle-outline' size={20} color='#7159c1' />
                                     </ProductControlButton>
                                     <ProductAmount value={String(product.amount)} />
                                     <ProductControlButton onPress={() => increment(product)}>
-                                        <Icon name='add-circle-outline' size={20} color={colors.primary} />
+                                        <Icon name='add-circle-outline' size={20} color='#7159c1' />
                                     </ProductControlButton>
                                     <ProductSubtotal>{product.subtotal}</ProductSubtotal>
                                 </ProductControls>
