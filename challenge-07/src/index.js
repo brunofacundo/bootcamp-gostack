@@ -10,7 +10,7 @@ import NavigationService from './services/navigation';
 export default function App() {
     return (
         <Provider store={store}>
-            <StatusBar barStyle='light-content' />
+            <StatusBar barStyle="light-content" />
             <Routes ref={NavigationService.create} />
         </Provider>
     );

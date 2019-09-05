@@ -52,16 +52,16 @@ function Cart({ products, total, removeFromCart, updateAmountRequest }) {
                                         <ProductPrice>{product.priceFormatted}</ProductPrice>
                                     </ProductDetails>
                                     <ProductDelete onPress={() => removeFromCart(product.id)}>
-                                        <Icon name='delete-forever' size={24} color='#7159c1' />
+                                        <Icon name="delete-forever" size={24} color="#7159c1" />
                                     </ProductDelete>
                                 </ProductInfo>
                                 <ProductControls>
                                     <ProductControlButton onPress={() => decrement(product)}>
-                                        <Icon name='remove-circle-outline' size={20} color='#7159c1' />
+                                        <Icon name="remove-circle-outline" size={20} color="#7159c1" />
                                     </ProductControlButton>
                                     <ProductAmount value={String(product.amount)} />
                                     <ProductControlButton onPress={() => increment(product)}>
-                                        <Icon name='add-circle-outline' size={20} color='#7159c1' />
+                                        <Icon name="add-circle-outline" size={20} color="#7159c1" />
                                     </ProductControlButton>
                                     <ProductSubtotal>{product.subtotal}</ProductSubtotal>
                                 </ProductControls>
@@ -78,7 +78,7 @@ function Cart({ products, total, removeFromCart, updateAmountRequest }) {
                 </>
             ) : (
                 <EmptyContainer>
-                    <Icon name='remove-shopping-cart' size={64} color='#999' />
+                    <Icon name="remove-shopping-cart" size={64} color="#999" />
                     <EmptyText>Seu carrinho está vazio.</EmptyText>
                 </EmptyContainer>
             )}

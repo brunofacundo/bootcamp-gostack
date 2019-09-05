@@ -94,15 +94,15 @@ export default class Main extends Component {
                 <Form>
                     <Input
                         autoCorrect={false}
-                        autoCapitalize='none'
-                        placeholder='Adicionar usuário'
+                        autoCapitalize="none"
+                        placeholder="Adicionar usuário"
                         value={newUser}
                         onChangeText={text => this.setState({ newUser: text })}
-                        returnKeyType='send'
+                        returnKeyType="send"
                         onSubmitEditing={this.handleAddUser}
                     />
                     <SubmitButton loading={loading} onPress={this.handleAddUser}>
-                        {loading ? <ActivityIndicator color='#FFF' /> : <Icon name='add' size={20} color='#FFF' />}
+                        {loading ? <ActivityIndicator color="#FFF" /> : <Icon name="add" size={20} color="#FFF" />}
                     </SubmitButton>
                 </Form>
 

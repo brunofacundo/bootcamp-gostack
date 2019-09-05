@@ -75,14 +75,14 @@ export default class Main extends Component {
 
                 <Form onSubmit={this.handleSubmit} error={error}>
                     <input
-                        type='text'
-                        placeholder='Adicionar repositório'
+                        type="text"
+                        placeholder="Adicionar repositório"
                         value={newRepo}
                         onChange={this.handleInputChange}
                     />
 
                     <SubmitButton loading={loading ? 1 : 0}>
-                        {loading ? <FaSpinner color='#FFF' size={14} /> : <FaPlus color='#FFF' size={14} />}
+                        {loading ? <FaSpinner color="#FFF" size={14} /> : <FaPlus color="#FFF" size={14} />}
                     </SubmitButton>
                 </Form>
 

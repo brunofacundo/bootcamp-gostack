@@ -96,7 +96,7 @@ export default class Repository extends Component {
         return (
             <Container>
                 <Owner>
-                    <Link to='/'>Voltar aos repositórios</Link>
+                    <Link to="/">Voltar aos repositórios</Link>
                     <img src={repository.owner.avatar_url} alt={repository.owner.login} />
                     <h1>{repository.name}</h1>
                     <p>{repository.description}</p>
@@ -105,7 +105,7 @@ export default class Repository extends Component {
                 <IssueList>
                     <IssueFilter active={filterIndex}>
                         {filters.map((filter, index) => (
-                            <button type='button' key={filter.label} onClick={() => this.handleFilterClick(index)}>
+                            <button type="button" key={filter.label} onClick={() => this.handleFilterClick(index)}>
                                 {filter.label}
                             </button>
                         ))}
@@ -127,11 +127,11 @@ export default class Repository extends Component {
                 </IssueList>
 
                 <PageActions>
-                    <button type='button' disabled={page < 2} onClick={() => this.handlePage('back')}>
+                    <button type="button" disabled={page < 2} onClick={() => this.handlePage('back')}>
                         Anterior
                     </button>
                     <span>Página {page}</span>
-                    <button type='button' onClick={() => this.handlePage('next')}>
+                    <button type="button" onClick={() => this.handlePage('next')}>
                         Próximo
                     </button>
                 </PageActions>

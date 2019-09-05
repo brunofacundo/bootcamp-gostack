@@ -9,7 +9,7 @@ function Header({ navigation, cartSize }) {
         <Container>
             <Logo />
             <BasketContainer onPress={() => navigation.navigate('Cart')}>
-                <Icon name='shopping-basket' color='#FFF' size={24} />
+                <Icon name="shopping-basket" color="#FFF" size={24} />
                 <ItemCount>{cartSize || 0}</ItemCount>
             </BasketContainer>
         </Container>
