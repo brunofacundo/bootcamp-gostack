@@ -6,4 +6,5 @@
 [Challenge 04 - [ReactJS] Facebook layout.](./challenge-04)  
 [Challenge 05 - [ReactJS] Repository listing using the GitHub API.](./challenge-05)  
 [Challenge 06 - [React Native] User listing using the GitHub API.](./challenge-06)  
-[Challenge 07 - [React Native] Mini e-commerce.](./challenge-07)
+[Challenge 07 - [React Native] Mini e-commerce.](./challenge-07)  
+[Challenge 08 - [React Native] Mini e-commerce (with react hooks).](./challenge-08)
